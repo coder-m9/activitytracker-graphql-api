@@ -1,6 +1,6 @@
-const { ApolloServer, gql } = require("apollo-server");
-const { typeDefs } = require("./typeDefs");
-const { resolvers } = require("./resolvers");
+const { ApolloServer, gql } = require('apollo-server');
+const { typeDefs } = require('./typeDefs');
+const { resolvers } = require('./resolvers');
 
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.
